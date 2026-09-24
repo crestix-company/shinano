@@ -1800,6 +1800,92 @@ img {
     display: block;
 }
 
+/* Event article: keep the existing news design and clarify key information. */
+.news-event-card .news-detail-title {
+    font-size: clamp(1.15rem, 5.5vw, 2rem);
+    line-height: 1.55;
+}
+
+.news-event-title-line {
+    display: block;
+}
+
+.news-event-title-word {
+    display: inline-block;
+}
+
+.news-event-kicker {
+    color: var(--color-accent-red);
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.news-event-period {
+    margin: 30px 0;
+    padding: 20px 24px;
+    border-left: 3px solid var(--color-accent-red);
+    background: var(--color-bg-base);
+}
+
+.news-event-period h2 {
+    color: var(--color-accent-red);
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+
+.news-event-period p {
+    font-weight: 700;
+}
+
+.news-event-period time,
+.news-event-period-end {
+    display: inline-block;
+}
+
+.news-event-notes {
+    list-style: none;
+    font-size: 0.9rem;
+    margin: 0 0 25px;
+    color: var(--color-text-sub);
+}
+
+.news-event-notes li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.news-event-link {
+    color: var(--color-accent-red);
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+
+.news-event-flyer {
+    margin-top: 36px;
+}
+
+.news-event-flyer a {
+    display: block;
+    cursor: zoom-in;
+}
+
+.news-event-flyer figcaption {
+    margin-top: 12px;
+    color: var(--color-text-sub);
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.news-event-sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
+
 /* --------------------------------------------------------------------------
    12. レスポンシブメディアクエリ
    -------------------------------------------------------------------------- */
