@@ -1868,6 +1868,10 @@ img {
     margin-top: 36px;
 }
 
+.news-detail-content > .news-event-flyer:first-child {
+    margin: 0 0 36px;
+}
+
 .news-event-flyer a {
     display: block;
     cursor: zoom-in;
