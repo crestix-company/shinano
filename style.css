@@ -998,6 +998,10 @@ img {
     height: 150px;
 }
 
+.modal-caption:empty {
+    display: none;
+}
+
 /* --------------------------------------------------------------------------
    8. 店内ギャラリーセクション (Gallery & Slideshow)
    -------------------------------------------------------------------------- */
@@ -1884,6 +1888,27 @@ img {
     overflow: hidden;
     clip-path: inset(50%);
     white-space: nowrap;
+}
+
+/* Seasonal announcements: readable dish names and prices, including on mobile. */
+.news-seasonal-menu {
+    margin: 30px 0;
+    border-top: 1px solid var(--color-border-light);
+}
+
+.news-seasonal-menu > div {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 12px;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--color-border-light);
+}
+
+.news-seasonal-menu dd {
+    white-space: nowrap;
+    color: var(--color-accent-red);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
 }
 
 /* --------------------------------------------------------------------------
